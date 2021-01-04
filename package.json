@@ -10,7 +10,9 @@
     "debug": "nodemon server.js",
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "pkg": "pkg . --options max_old_space_size=4096 --out-path=../../pkg/dist/"
+    "pkg": "pkg . --options max_old_space_size=4096 --out-path=../../pkg/dist/",
+    "pkg-macos": "pkg . --options max_old_space_size=4096 --out-path=../../pkg/dist/ --targets node12-macos-x64",
+    "pkg-win": "pkg . --options max_old_space_size=4096 --out-path=../../pkg/dist/ --targets node12-win-x64"
   },
   "bin": "./server.js",
   "pkg": {
@@ -21,10 +23,6 @@
       "node_modules/@steedos/webapp/build/**",
       "node_modules/@steedos/i18n/**",
       "node_modules/@steedos/steedos-plugin-workflow/**"
-    ],
-    "targets": [
-      "node12-win-x64",
-      "node12-macos-x64"
     ]
   },
   "author": "",
