@@ -1051,6 +1051,11 @@
     odata-v4-parser "0.1.13"
     odata-v4-sql "^0.1.2"
 
+"@steedos/plugin-enterprise@^1.23.0-alpha.16":
+  version "1.23.0-alpha.16"
+  resolved "https://registry.npm.taobao.org/@steedos/plugin-enterprise/download/@steedos/plugin-enterprise-1.23.0-alpha.16.tgz#73ff5e241ca692e8c3f8d088689c0780af2a91f3"
+  integrity sha1-c/9eJBymkujD+NCIaJwHgK8qkfM=
+
 "@steedos/plugin-qywx@^0.0.15":
   version "0.0.15"
   resolved "https://registry.npm.taobao.org/@steedos/plugin-qywx/download/@steedos/plugin-qywx-0.0.15.tgz#f5f59478e64aec505838651cb1252d81a6f3213d"
@@ -1120,10 +1125,10 @@
     redux "^4.0.4"
     redux-thunk "^2.3.0"
 
-"@steedos/word-template@^1.23.0-alpha.11":
-  version "1.23.0-alpha.11"
-  resolved "https://registry.npm.taobao.org/@steedos/word-template/download/@steedos/word-template-1.23.0-alpha.11.tgz#60f22d865cdf5dc5fa8503ed948373a5e0a73107"
-  integrity sha1-YPIthlzfXcX6hQPtlINzpeCnMQc=
+"@steedos/word-template@^1.23.0-alpha.16":
+  version "1.23.0-alpha.16"
+  resolved "https://registry.npm.taobao.org/@steedos/word-template/download/@steedos/word-template-1.23.0-alpha.16.tgz#800ebbe74ad735dd2a77f1033adc41a198031d76"
+  integrity sha1-gA6750rXNd0qd/EDOtxBoZgDHXY=
   dependencies:
     docxtemplater "^3.19.7"
     dotenv-flow "^3.2.0"
