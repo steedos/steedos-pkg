@@ -15,3 +15,6 @@
 storage/**
 
 .env.local
+
+**/bin
+**/db
